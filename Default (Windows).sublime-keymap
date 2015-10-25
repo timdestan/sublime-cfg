@@ -1,0 +1,19 @@
+[
+  {
+    "keys": ["ctrl+k", "ctrl+f"],
+    "command": "scala_format",
+    "context": [{
+      "key": "scala_format_is_enabled",
+      "operator": "equal",
+      "operand": ""
+    }]
+  },
+  {
+    "keys": ["ctrl+\\"],
+    "command": "toggle_side_bar"
+  },
+  {
+    "keys": ["alt+shift+\\"],
+    "command": "reveal_in_side_bar"
+  }
+]
